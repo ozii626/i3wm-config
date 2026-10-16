@@ -1,0 +1,4 @@
+configuration {
+  font: "Terminus Nerd Mono 14";
+}
+@theme "/usr/share/rofi/themes/cyberdeck.rasi"

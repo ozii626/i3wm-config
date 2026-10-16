@@ -1,0 +1,111 @@
+
+* {
+    text-color:  @blue;
+    background-color:  @black;
+    dark: @black;
+    // Black
+    black:       #120b10;
+    lightblack:  #554444;
+    //
+    // Red
+    red:         #ff0055;
+    lightred:    #cc5533;
+    //
+    // Green
+    green:       #86af80;
+    lightgreen:  #88cc22;
+    //
+    // Yellow
+    yellow:      #ffd300;
+    lightyellow:     #ffb000;
+    //
+    // Blue
+    blue:      #05d9e8;
+    lightblue:     #87ceeb;
+    //
+    // Magenta
+    magenta:      #deb887;
+    lightmagenta:     #996600;
+    //
+    // Cyan
+    cyan:      #b0c4de;
+    lightcyan:     #b0c4de;
+    //
+    // White
+    white:      #bbaa99;
+    lightwhite:     #ddccbb;
+    //
+    // Bold, Italic, Underline
+    highlight:     bold #ffffff;
+}
+window {
+    height:   100%;
+    width: 30em;
+    location: west;
+    anchor:   west;
+    border:  0px 2px 0px 0px;
+    text-color: @red;
+}
+mode-switcher {
+    border: 2px 0px 0px 0px;
+    background-color: @black;
+    padding: 4px;
+}
+button selected {
+    border-color: @lightgreen;
+    text-color: @yellow;
+}
+inputbar {
+    background-color: @yellow;
+    text-color: @yellow;
+    padding: 4px;
+    border: 0px 0px 2px 0px;
+}
+mainbox {
+    expand: true;
+    text-color: @yellow;
+    background-color: @black;
+    spacing: 0em;
+}
+listview {
+    padding: 0px 0px 0px 40px;
+    dynamic: false;
+    lines: 0;
+}
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+element selected  normal {
+    background-color: @red;
+    text-color: @black;
+}
+element normal active {
+    text-color: @black;
+}
+element normal urgent {
+    text-color: @lightred;
+}
+element alternate normal {
+}
+element alternate active {
+    text-color: @lightblue;
+}
+element alternate urgent {
+    text-color: @lightred;
+}
+element selected active {
+    background-color: @lightblue;
+    text-color: @dark;
+}
+element selected urgent {
+    background-color: @lightred;
+    text-color: @dark;
+}
+error-message {
+    expand: true;
+    background-color: @red;
+    border-color: darkred;
+    border: 2px;
+    padding: 1em;
+}
